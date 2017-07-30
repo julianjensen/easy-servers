@@ -1,0 +1,23 @@
+{
+    "name": "servers",
+    "version": "1.0.0",
+    "description": "Various HTTP server implementations.",
+    "main": "simpleserver.js",
+    "bin": {
+        "simplehttp": "simpleserver.js",
+        "httpserver": "httpserver.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "simplehttp": "node simpleserver.js",
+        "httpserver": "node httpserver.js"
+    },
+    "author": "Julian Jensen <jjdanois@gmail.com>",
+    "repository": "https://github.com/julianjensen/easy-servers.git",
+    "license": "ISC",
+    "dependencies": {
+        "connect": "^3.6.2",
+        "send": "^0.15.3",
+        "serve-static": "^1.12.3"
+    }
+}
