@@ -1,6 +1,8 @@
 Quickest and easiest possible HTTP servers
 ==========================================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/julianjensen/easy-servers.svg)](https://greenkeeper.io/)
+
 > NOTE: Whenever you want to run a server on a port lower than 1024, you will need to run the command using `sudo`.
 
 ### Method #1
